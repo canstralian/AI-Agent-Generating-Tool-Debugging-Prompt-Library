@@ -1,0 +1,22 @@
+[
+    {
+        "task": "Bug Bounty",
+        "prompt": "You are a bug bounty hunter tasked with identifying and exploiting vulnerabilities in a web application. Focus on common web security issues like SQL injection, XSS, and CSRF. Provide steps to reproduce each vulnerability and the potential impact of each one.",
+        "expected_output": "A detailed report with a list of identified vulnerabilities, steps to reproduce them, and a severity ranking for each. Include any proof-of-concept (PoC) code or screenshots where applicable."
+    },
+    {
+        "task": "CTF Challenge",
+        "prompt": "You are participating in a CTF event and need to exploit a binary vulnerability. The binary is a simple calculator application that takes user input and performs arithmetic operations. Identify potential buffer overflows or format string vulnerabilities that can be exploited to gain control of the program\u2019s execution flow.",
+        "expected_output": "An exploitation script that triggers the vulnerability, along with a description of the vulnerability type and how it can be mitigated. Include any flags or information obtained during the process."
+    },
+    {
+        "task": "Bug Bounty",
+        "prompt": "You are tasked with exploiting an insecure HTTP header on a web application. Analyze the header for potential security issues like HTTP Response Splitting or Host Header Injection.",
+        "expected_output": "A PoC for exploiting HTTP header issues, with a detailed report on how to fix them."
+    },
+    {
+        "task": "CTF Challenge",
+        "prompt": "In a CTF challenge, you find a web service exposed with improper authorization mechanisms. Try to escalate your privileges to access restricted files.",
+        "expected_output": "A report detailing the privilege escalation steps, the files accessed, and any sensitive information obtained."
+    }
+]

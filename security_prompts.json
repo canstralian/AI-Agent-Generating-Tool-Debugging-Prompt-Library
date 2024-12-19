@@ -1,0 +1,77 @@
+[
+    {
+        "task": "Bug Bounty",
+        "prompt": "You are a bug bounty hunter tasked with identifying and exploiting vulnerabilities in a web application. Focus on common web security issues like SQL injection, XSS, and CSRF. Provide steps to reproduce each vulnerability and the potential impact of each one.",
+        "expected_output": "A detailed report with a list of identified vulnerabilities, steps to reproduce them, and a severity ranking for each. Include any proof-of-concept (PoC) code or screenshots where applicable."
+    },
+    {
+        "task": "CTF Challenge",
+        "prompt": "You are participating in a CTF event and need to exploit a binary vulnerability. The binary is a simple calculator application that takes user input and performs arithmetic operations. Identify potential buffer overflows or format string vulnerabilities that can be exploited to gain control of the program\u2019s execution flow.",
+        "expected_output": "An exploitation script that triggers the vulnerability, along with a description of the vulnerability type and how it can be mitigated. Include any flags or information obtained during the process."
+    },
+    {
+        "task": "Bug Bounty",
+        "prompt": "You are tasked with identifying a misconfigured AWS S3 bucket in a bug bounty program. The S3 bucket contains sensitive data. Your goal is to find access control issues and unauthorized exposure of this data.",
+        "expected_output": "A list of steps to identify and exploit the misconfigured S3 bucket, including details about the exposed data and any security implications. Provide suggestions for securing the bucket and preventing unauthorized access."
+    },
+    {
+        "task": "CTF Challenge",
+        "prompt": "You are working on a web application security challenge in a CTF event. The application is vulnerable to an SSRF (Server-Side Request Forgery) attack. Your goal is to exploit this vulnerability to gain access to internal resources or perform unintended actions on the server.",
+        "expected_output": "A detailed explanation of the SSRF attack, how to exploit it, and any internal resources that were accessed. Include a PoC for exploiting the vulnerability."
+    },
+    {
+        "task": "Bug Bounty",
+        "prompt": "Your task is to find and exploit an insecure deserialization vulnerability in a popular web framework. The application processes user input without proper sanitization, leading to potential remote code execution.",
+        "expected_output": "A proof-of-concept exploit demonstrating the insecure deserialization vulnerability, steps to reproduce it, and recommendations for mitigating such vulnerabilities in the framework."
+    },
+    {
+        "task": "Bug Bounty",
+        "prompt": "You discover a web application that uses JWT tokens for user authentication. After reviewing the implementation, you suspect the tokens are being handled insecurely. Your job is to exploit this issue to access other users' sessions.",
+        "expected_output": "A detailed PoC demonstrating how to exploit JWT token insecurity, including any tools used and steps to take over another user\u2019s session."
+    },
+    {
+        "task": "CTF Challenge",
+        "prompt": "You are in a CTF challenge that involves decoding a base64-encoded payload hidden in a website's JavaScript. Your task is to decode the payload and identify any hidden flags.",
+        "expected_output": "The decoded base64 payload and the flags hidden inside the JavaScript. Provide any insights or steps taken during decoding."
+    },
+    {
+        "task": "Bug Bounty",
+        "prompt": "You are performing a security audit on a mobile application. Upon analyzing the API requests, you discover that sensitive user data is being transmitted in cleartext. Your goal is to identify the vulnerabilities and propose mitigations.",
+        "expected_output": "A list of sensitive data exposed, the risk involved, and proposed mitigation steps such as encryption or secure HTTP methods."
+    },
+    {
+        "task": "CTF Challenge",
+        "prompt": "In this CTF, you\u2019re tasked with exploiting a vulnerable FTP server. The challenge is to escalate your privileges and gain root access. Document the process and provide a PoC for exploiting the server.",
+        "expected_output": "A step-by-step guide of how to escalate privileges on the FTP server, including tools and commands used."
+    },
+    {
+        "task": "Bug Bounty",
+        "prompt": "You find a vulnerability in a REST API that exposes sensitive information like passwords through an insecure endpoint. You need to exploit this vulnerability and propose steps to patch it.",
+        "expected_output": "A detailed report including how to exploit the vulnerability, what data can be extracted, and suggested API security best practices."
+    },
+    {
+        "task": "CTF Challenge",
+        "prompt": "During a CTF challenge, you find a web server running on a deprecated version of PHP that may have known vulnerabilities. Your task is to exploit these weaknesses to extract sensitive data.",
+        "expected_output": "A detailed explanation of the vulnerabilities found in the PHP server, how to exploit them, and the sensitive data that can be accessed."
+    },
+    {
+        "task": "Bug Bounty",
+        "prompt": "You are reviewing a Docker container that is running a web application. There are potential issues with container isolation. Your goal is to identify how to escape the container and gain access to the host system.",
+        "expected_output": "A PoC for container escape, with step-by-step instructions on exploiting the container isolation issues."
+    },
+    {
+        "task": "CTF Challenge",
+        "prompt": "Your CTF task involves exploiting an exposed Redis instance. You need to figure out how to gain unauthorized access to the data stored within it.",
+        "expected_output": "A PoC for accessing the Redis instance, the data retrieved, and the method used to exploit the configuration."
+    },
+    {
+        "task": "Bug Bounty",
+        "prompt": "While testing a web application, you discover that HTTP headers are being improperly validated, allowing an attacker to inject malicious headers that could cause security issues. Exploit this vulnerability.",
+        "expected_output": "A PoC demonstrating header injection and its potential security risks. Include recommendations for proper header validation."
+    },
+    {
+        "task": "CTF Challenge",
+        "prompt": "In a CTF, you are given a locked file containing an encrypted flag. Your task is to reverse-engineer the encryption mechanism and extract the flag.",
+        "expected_output": "A step-by-step decryption process and the extracted flag, including tools used and how you identified the encryption mechanism."
+    }
+]
